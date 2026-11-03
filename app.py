@@ -214,7 +214,7 @@ def show_login():
                         send_heartbeat(u_input, is_logged_in=True)
                         st.rerun()
                 st.error("Invalid username or password.")
-        st.info("Default accounts: `admin` / `admin123` | `operator1` / `vessel2026`")
+       
 
 if not st.session_state.authenticated:
     show_login()
